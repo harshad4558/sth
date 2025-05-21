@@ -1,0 +1,54 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('D:/projects/practice/sht/public/images/footprint.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+}
+.custom-card {
+    /* background-color: rgb(161, 227, 200); */
+    background:rgba(255, 255, 255, 0.874);
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-button {
+    background-color: #8bc729;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .custom-button:hover {
+    background-color: #00d412;
+  }
+  
+  .custom-header {
+    font-size: 50px;
+    font-weight: 900;
+    color: #333;
+    text-align: center;
+  }
+  .custom-inputs{
+    font-size: 15px;
+    font-weight:700;
+    padding: 10px;
+  }
+  .custom-lables{
+    font-size: 17px;
+    font-weight: 200;
+  }
+  /* .custom-footer{
+
+  } */
